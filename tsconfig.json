@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./custom.d.ts"
+    ],
+    "types": ["node", "jest"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "custom.d.ts"
+  ]
+}
